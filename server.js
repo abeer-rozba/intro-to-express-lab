@@ -80,7 +80,7 @@ app.get("/shoes", (request, response) => {
   else {
     response.send(shoes)
   }
-})
+}) // how do I make the response readable?
 
 app.listen(3000, () => {
 })
